@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0428C2162DD4864100818DD9 /* TaskCompletionModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428C2152DD4864100818DD9 /* TaskCompletionModalView.swift */; };
+		047A693B2DCCC0B30088C6EA /* tasmatim5App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A693A2DCCC0B30088C6EA /* tasmatim5App.swift */; };
+		047A693D2DCCC0B30088C6EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A693C2DCCC0B30088C6EA /* ContentView.swift */; };
+		047A693F2DCCC0B30088C6EA /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A693E2DCCC0B30088C6EA /* Item.swift */; };
+		047A69412DCCC0B40088C6EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047A69402DCCC0B40088C6EA /* Assets.xcassets */; };
+		047A69442DCCC0B40088C6EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047A69432DCCC0B40088C6EA /* Preview Assets.xcassets */; };
+		047A694E2DCCC0B50088C6EA /* tasmatim5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A694D2DCCC0B50088C6EA /* tasmatim5Tests.swift */; };
+		047A69582DCCC0B50088C6EA /* tasmatim5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A69572DCCC0B50088C6EA /* tasmatim5UITests.swift */; };
+		047A695A2DCCC0B50088C6EA /* tasmatim5UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A69592DCCC0B50088C6EA /* tasmatim5UITestsLaunchTests.swift */; };
+		047A69672DCCC0F80088C6EA /* TaskItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A69662DCCC0F80088C6EA /* TaskItem.swift */; };
+		047A69692DCCC1270088C6EA /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A69682DCCC1270088C6EA /* OnboardingView.swift */; };
+		047A696B2DCCC15A0088C6EA /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A696A2DCCC15A0088C6EA /* AddTaskView.swift */; };
+		047A696D2DCCC1E80088C6EA /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A696C2DCCC1E80088C6EA /* TaskListView.swift */; };
+		047A696F2DCCC2110088C6EA /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A696E2DCCC2110088C6EA /* HistoryView.swift */; };
+		047A69722DCDE6880088C6EA /* GIFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A69712DCDE6880088C6EA /* GIFView.swift */; };
+		047A69822DCF4DDB0088C6EA /* BadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A69812DCF4DDB0088C6EA /* BadgeView.swift */; };
+		047A698A2DD1C18F0088C6EA /* TaskDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A69892DD1C18F0088C6EA /* TaskDetailView.swift */; };
+		047A698C2DD1C1B00088C6EA /* TaskEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A698B2DD1C1B00088C6EA /* TaskEditView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		047A694A2DCCC0B50088C6EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 047A692F2DCCC0B30088C6EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 047A69362DCCC0B30088C6EA;
+			remoteInfo = tasmatim5;
+		};
+		047A69542DCCC0B50088C6EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 047A692F2DCCC0B30088C6EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 047A69362DCCC0B30088C6EA;
+			remoteInfo = tasmatim5;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0428C2152DD4864100818DD9 /* TaskCompletionModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCompletionModalView.swift; sourceTree = "<group>"; };
+		047A69372DCCC0B30088C6EA /* tasmatim5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tasmatim5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		047A693A2DCCC0B30088C6EA /* tasmatim5App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tasmatim5App.swift; sourceTree = "<group>"; };
+		047A693C2DCCC0B30088C6EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		047A693E2DCCC0B30088C6EA /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		047A69402DCCC0B40088C6EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		047A69432DCCC0B40088C6EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		047A69492DCCC0B50088C6EA /* tasmatim5Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tasmatim5Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		047A694D2DCCC0B50088C6EA /* tasmatim5Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tasmatim5Tests.swift; sourceTree = "<group>"; };
+		047A69532DCCC0B50088C6EA /* tasmatim5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tasmatim5UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		047A69572DCCC0B50088C6EA /* tasmatim5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tasmatim5UITests.swift; sourceTree = "<group>"; };
+		047A69592DCCC0B50088C6EA /* tasmatim5UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tasmatim5UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		047A69662DCCC0F80088C6EA /* TaskItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskItem.swift; sourceTree = "<group>"; };
+		047A69682DCCC1270088C6EA /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		047A696A2DCCC15A0088C6EA /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+		047A696C2DCCC1E80088C6EA /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
+		047A696E2DCCC2110088C6EA /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		047A69712DCDE6880088C6EA /* GIFView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFView.swift; sourceTree = "<group>"; };
+		047A69812DCF4DDB0088C6EA /* BadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeView.swift; sourceTree = "<group>"; };
+		047A69892DD1C18F0088C6EA /* TaskDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailView.swift; sourceTree = "<group>"; };
+		047A698B2DD1C1B00088C6EA /* TaskEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskEditView.swift; sourceTree = "<group>"; };
+		047A698D2DD1E7990088C6EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		047A69342DCCC0B30088C6EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047A69462DCCC0B50088C6EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047A69502DCCC0B50088C6EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		047A692E2DCCC0B30088C6EA = {
+			isa = PBXGroup;
+			children = (
+				047A69392DCCC0B30088C6EA /* tasmatim5 */,
+				047A694C2DCCC0B50088C6EA /* tasmatim5Tests */,
+				047A69562DCCC0B50088C6EA /* tasmatim5UITests */,
+				047A69382DCCC0B30088C6EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		047A69382DCCC0B30088C6EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				047A69372DCCC0B30088C6EA /* tasmatim5.app */,
+				047A69492DCCC0B50088C6EA /* tasmatim5Tests.xctest */,
+				047A69532DCCC0B50088C6EA /* tasmatim5UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		047A69392DCCC0B30088C6EA /* tasmatim5 */ = {
+			isa = PBXGroup;
+			children = (
+				047A698D2DD1E7990088C6EA /* Info.plist */,
+				047A69702DCDE62A0088C6EA /*  Resources */,
+				047A69682DCCC1270088C6EA /* OnboardingView.swift */,
+				047A69712DCDE6880088C6EA /* GIFView.swift */,
+				047A696A2DCCC15A0088C6EA /* AddTaskView.swift */,
+				047A693A2DCCC0B30088C6EA /* tasmatim5App.swift */,
+				047A69662DCCC0F80088C6EA /* TaskItem.swift */,
+				047A693C2DCCC0B30088C6EA /* ContentView.swift */,
+				047A69892DD1C18F0088C6EA /* TaskDetailView.swift */,
+				047A698B2DD1C1B00088C6EA /* TaskEditView.swift */,
+				047A696C2DCCC1E80088C6EA /* TaskListView.swift */,
+				0428C2152DD4864100818DD9 /* TaskCompletionModalView.swift */,
+				047A696E2DCCC2110088C6EA /* HistoryView.swift */,
+				047A69812DCF4DDB0088C6EA /* BadgeView.swift */,
+				047A693E2DCCC0B30088C6EA /* Item.swift */,
+				047A69402DCCC0B40088C6EA /* Assets.xcassets */,
+				047A69422DCCC0B40088C6EA /* Preview Content */,
+			);
+			path = tasmatim5;
+			sourceTree = "<group>";
+		};
+		047A69422DCCC0B40088C6EA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				047A69432DCCC0B40088C6EA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		047A694C2DCCC0B50088C6EA /* tasmatim5Tests */ = {
+			isa = PBXGroup;
+			children = (
+				047A694D2DCCC0B50088C6EA /* tasmatim5Tests.swift */,
+			);
+			path = tasmatim5Tests;
+			sourceTree = "<group>";
+		};
+		047A69562DCCC0B50088C6EA /* tasmatim5UITests */ = {
+			isa = PBXGroup;
+			children = (
+				047A69572DCCC0B50088C6EA /* tasmatim5UITests.swift */,
+				047A69592DCCC0B50088C6EA /* tasmatim5UITestsLaunchTests.swift */,
+			);
+			path = tasmatim5UITests;
+			sourceTree = "<group>";
+		};
+		047A69702DCDE62A0088C6EA /*  Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = " Resources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		047A69362DCCC0B30088C6EA /* tasmatim5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047A695D2DCCC0B50088C6EA /* Build configuration list for PBXNativeTarget "tasmatim5" */;
+			buildPhases = (
+				047A69332DCCC0B30088C6EA /* Sources */,
+				047A69342DCCC0B30088C6EA /* Frameworks */,
+				047A69352DCCC0B30088C6EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tasmatim5;
+			productName = tasmatim5;
+			productReference = 047A69372DCCC0B30088C6EA /* tasmatim5.app */;
+			productType = "com.apple.product-type.application";
+		};
+		047A69482DCCC0B50088C6EA /* tasmatim5Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047A69602DCCC0B50088C6EA /* Build configuration list for PBXNativeTarget "tasmatim5Tests" */;
+			buildPhases = (
+				047A69452DCCC0B50088C6EA /* Sources */,
+				047A69462DCCC0B50088C6EA /* Frameworks */,
+				047A69472DCCC0B50088C6EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				047A694B2DCCC0B50088C6EA /* PBXTargetDependency */,
+			);
+			name = tasmatim5Tests;
+			productName = tasmatim5Tests;
+			productReference = 047A69492DCCC0B50088C6EA /* tasmatim5Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		047A69522DCCC0B50088C6EA /* tasmatim5UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047A69632DCCC0B50088C6EA /* Build configuration list for PBXNativeTarget "tasmatim5UITests" */;
+			buildPhases = (
+				047A694F2DCCC0B50088C6EA /* Sources */,
+				047A69502DCCC0B50088C6EA /* Frameworks */,
+				047A69512DCCC0B50088C6EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				047A69552DCCC0B50088C6EA /* PBXTargetDependency */,
+			);
+			name = tasmatim5UITests;
+			productName = tasmatim5UITests;
+			productReference = 047A69532DCCC0B50088C6EA /* tasmatim5UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		047A692F2DCCC0B30088C6EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					047A69362DCCC0B30088C6EA = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					047A69482DCCC0B50088C6EA = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 047A69362DCCC0B30088C6EA;
+					};
+					047A69522DCCC0B50088C6EA = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 047A69362DCCC0B30088C6EA;
+					};
+				};
+			};
+			buildConfigurationList = 047A69322DCCC0B30088C6EA /* Build configuration list for PBXProject "tasmatim5" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 047A692E2DCCC0B30088C6EA;
+			productRefGroup = 047A69382DCCC0B30088C6EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				047A69362DCCC0B30088C6EA /* tasmatim5 */,
+				047A69482DCCC0B50088C6EA /* tasmatim5Tests */,
+				047A69522DCCC0B50088C6EA /* tasmatim5UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		047A69352DCCC0B30088C6EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047A69442DCCC0B40088C6EA /* Preview Assets.xcassets in Resources */,
+				047A69412DCCC0B40088C6EA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047A69472DCCC0B50088C6EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047A69512DCCC0B50088C6EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		047A69332DCCC0B30088C6EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047A696D2DCCC1E80088C6EA /* TaskListView.swift in Sources */,
+				047A696F2DCCC2110088C6EA /* HistoryView.swift in Sources */,
+				047A693D2DCCC0B30088C6EA /* ContentView.swift in Sources */,
+				047A698A2DD1C18F0088C6EA /* TaskDetailView.swift in Sources */,
+				047A693F2DCCC0B30088C6EA /* Item.swift in Sources */,
+				0428C2162DD4864100818DD9 /* TaskCompletionModalView.swift in Sources */,
+				047A69722DCDE6880088C6EA /* GIFView.swift in Sources */,
+				047A693B2DCCC0B30088C6EA /* tasmatim5App.swift in Sources */,
+				047A69822DCF4DDB0088C6EA /* BadgeView.swift in Sources */,
+				047A696B2DCCC15A0088C6EA /* AddTaskView.swift in Sources */,
+				047A698C2DD1C1B00088C6EA /* TaskEditView.swift in Sources */,
+				047A69692DCCC1270088C6EA /* OnboardingView.swift in Sources */,
+				047A69672DCCC0F80088C6EA /* TaskItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047A69452DCCC0B50088C6EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047A694E2DCCC0B50088C6EA /* tasmatim5Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047A694F2DCCC0B50088C6EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047A695A2DCCC0B50088C6EA /* tasmatim5UITestsLaunchTests.swift in Sources */,
+				047A69582DCCC0B50088C6EA /* tasmatim5UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		047A694B2DCCC0B50088C6EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 047A69362DCCC0B30088C6EA /* tasmatim5 */;
+			targetProxy = 047A694A2DCCC0B50088C6EA /* PBXContainerItemProxy */;
+		};
+		047A69552DCCC0B50088C6EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 047A69362DCCC0B30088C6EA /* tasmatim5 */;
+			targetProxy = 047A69542DCCC0B50088C6EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		047A695B2DCCC0B50088C6EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		047A695C2DCCC0B50088C6EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		047A695E2DCCC0B50088C6EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"tasmatim5/Preview Content\"";
+				DEVELOPMENT_TEAM = 5US229DGUT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = tasmatim5/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Tasma;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tim5.tasmatim5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		047A695F2DCCC0B50088C6EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"tasmatim5/Preview Content\"";
+				DEVELOPMENT_TEAM = 5US229DGUT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = tasmatim5/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Tasma;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tim5.tasmatim5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		047A69612DCCC0B50088C6EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tim5.tasmatim5Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tasmatim5.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tasmatim5";
+			};
+			name = Debug;
+		};
+		047A69622DCCC0B50088C6EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tim5.tasmatim5Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tasmatim5.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tasmatim5";
+			};
+			name = Release;
+		};
+		047A69642DCCC0B50088C6EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tim5.tasmatim5UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tasmatim5;
+			};
+			name = Debug;
+		};
+		047A69652DCCC0B50088C6EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tim5.tasmatim5UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tasmatim5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		047A69322DCCC0B30088C6EA /* Build configuration list for PBXProject "tasmatim5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047A695B2DCCC0B50088C6EA /* Debug */,
+				047A695C2DCCC0B50088C6EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047A695D2DCCC0B50088C6EA /* Build configuration list for PBXNativeTarget "tasmatim5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047A695E2DCCC0B50088C6EA /* Debug */,
+				047A695F2DCCC0B50088C6EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047A69602DCCC0B50088C6EA /* Build configuration list for PBXNativeTarget "tasmatim5Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047A69612DCCC0B50088C6EA /* Debug */,
+				047A69622DCCC0B50088C6EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047A69632DCCC0B50088C6EA /* Build configuration list for PBXNativeTarget "tasmatim5UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047A69642DCCC0B50088C6EA /* Debug */,
+				047A69652DCCC0B50088C6EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 047A692F2DCCC0B30088C6EA /* Project object */;
+}
